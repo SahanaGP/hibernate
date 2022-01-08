@@ -22,5 +22,9 @@ dao.create(entity2);
 dao.create(entity3);
 dao.create(entity4);
 
+		StateDAO dao1=new StateDAOImpl();	
+		dao1.getById(1);
+		dao1.updateNoOfDistrictsById(15,2);
+		dao1.deleteById(5);
 }
 }

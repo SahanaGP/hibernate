@@ -8,7 +8,6 @@
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-    <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.company.dao.CompanyDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.company.dao.CompanyDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.country.entity.CountryEntity"/>
@@ -24,4 +23,5 @@
     <fullyQualifiedTypeName name="com.xworkz.patient.entity.PatientEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.patient.dao.PatientDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.patient.dao.PatientDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
 </qualifiedTypeNameHistroy>

@@ -23,5 +23,9 @@ dao.create(entity2);
 dao.create(entity3);
 dao.create(entity4);
 
+CityDAO dao1=new CityDAOImpl();
+dao1.getById(4);
+dao1.updatePopulationById(77.89f, 5);
+dao1.deleteById(3);
 	}
 }

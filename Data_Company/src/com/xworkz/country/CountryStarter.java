@@ -22,6 +22,10 @@ dao.create(entity2);
 dao.create(entity3);
 dao.create(entity4);
 
+		CountryDAO dao1=new CountryDAOImpl();
+		dao1.getById(4);
+		dao1.updatePopulationById(36.00f,2);
+		dao1.deleteById(3);
 	}
 
 }
