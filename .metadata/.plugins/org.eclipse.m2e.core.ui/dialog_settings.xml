@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="tourist_project"/>
 			<item value="Data_Company"/>
 		</list>
 		<list key="version">

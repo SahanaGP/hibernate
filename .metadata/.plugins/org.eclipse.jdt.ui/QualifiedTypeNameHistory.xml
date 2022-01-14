@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
@@ -16,7 +13,6 @@
     <fullyQualifiedTypeName name="com.xworkz.state.entity.StateEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.state.dao.StateDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.state.dao.StateDAO"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.xworkz.city.entity.CityEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.city.dao.CityDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.city.dao.CityDAOImpl"/>
@@ -24,4 +20,19 @@
     <fullyQualifiedTypeName name="com.xworkz.patient.dao.PatientDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.patient.dao.PatientDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="org.hibernate.dialect.MySQL8Dialect"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="com.xworkz.util.EMFUtil"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.TouristEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.SilkManufacturerEntity"/>
 </qualifiedTypeNameHistroy>
