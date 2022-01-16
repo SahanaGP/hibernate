@@ -35,4 +35,9 @@
     <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.tour.dao.TouristDAOImpl"/>
     <fullyQualifiedTypeName name="com.xworkz.tour.entity.SilkManufacturerEntity"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
+    <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
