@@ -8,7 +8,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
 @Table(name="medicine_table")
+
 public class MedicineEntity implements Serializable {
+	
 	@Id
 	@Column(name="m_id")
 	private int mId;
