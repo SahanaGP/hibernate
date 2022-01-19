@@ -20,8 +20,6 @@
     <fullyQualifiedTypeName name="com.xworkz.patient.dao.PatientDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
     <fullyQualifiedTypeName name="org.hibernate.dialect.MySQL8Dialect"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="com.xworkz.util.EMFUtil"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
@@ -34,7 +32,6 @@
     <fullyQualifiedTypeName name="org.hibernate.mapping.List"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.xworkz.tour.dao.WebsiteDAOImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.Entity"/>
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -45,4 +42,14 @@
     <fullyQualifiedTypeName name="com.xworkz.tour.dao.WebsiteDAO"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="javax.persistence.Query"/>
+    <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.VehicleEntity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="com.xworkz.emf.SingletonEmf"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
 </qualifiedTypeNameHistroy>
