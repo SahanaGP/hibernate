@@ -1138,3 +1138,30 @@
 2022-01-17 22:48:29,724 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
 2022-01-17 22:48:29,735 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-01-17 22:48:29,736 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:41:58,862 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-19 12:42:30,247 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:42:30,256 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:42:30,260 [Worker-2: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:42:30,262 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:42:37,012 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:42:37,014 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:42:37,016 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:42:37,020 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:43:21,714 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:43:21,716 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:43:21,719 [Worker-3: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:43:21,736 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:45:02,572 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:45:02,575 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:45:02,579 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:45:02,580 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:46:27,202 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:46:27,205 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:46:27,209 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:46:27,210 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:52:33,651 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:52:33,660 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources
+2022-01-19 12:52:33,667 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:52:33,670 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\test\resources
+2022-01-19 12:54:34,941 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-19 12:54:34,944 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\dhanu\OneDrive\Desktop\Advance_Java\tourist_project\src\main\resources

@@ -7,10 +7,26 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="website_table")
+
+@NamedQueries({
+	@NamedQuery(name="getByNameGoogle",query="select wEntity from WebsiteEntity as wEntity where wEntity.webName='Google'"),
+	@NamedQuery(name="getByLikeURL",query="select web from WebsiteEntity as web where web.webURL like 'www.voo%'"),
+	@NamedQuery(name="getByMinSince",query="select minSince from WebsiteEntity as minSince where minSince.webSince="+ "(select min(we.webSince) from WebsiteEntity we)" ),
+	@NamedQuery(name="getByMaxSince",query="select maxSince from WebsiteEntity as maxSince where maxSince.webSince="+ "(select max(wen.webSince) from WebsiteEntity wen)"),
+	@NamedQuery(name="getBySecondMaxSince",query="select secondMax from WebsiteEntity as secondMax where secondMax.webSince="+
+	"(select max(web.webSince) from WebsiteEntity as web where web.webSince<" +
+			"(select max(maximum.webSince) from WebsiteEntity as maximum))"),
+	@NamedQuery(name="getBySecondMinSince",query="select second from WebsiteEntity as second where second.webSince="+
+			"(select min(web.webSince) from WebsiteEntity as web where web.webSince>" +
+			"(select min(minimum.webSince) from WebsiteEntity as minimum))")
+
+})
 
 public class WebsiteEntity implements Serializable {
 
@@ -23,11 +39,11 @@ public class WebsiteEntity implements Serializable {
 	@Column(name="web_url")
 	private String webURL;
 	@Column(name="since")
-	private int since;
+	private int webSince;
 	@Column(name="domain")
-	private String domain;
+	private String webDomain;
 	@Column(name="owner")
-	private String owner;
+	private String webOwner;
 	
 	public WebsiteEntity() {
 		
@@ -38,15 +54,15 @@ public class WebsiteEntity implements Serializable {
 		
 		this.webName = webName;
 		this.webURL = webURL;
-		this.since = since;
-		this.domain = domain;
-		this.owner = owner;
+		this.webSince = since;
+		this.webDomain = domain;
+		this.webOwner = owner;
 	}
 
 	@Override
 	public String toString() {
-		return "WebsiteEntity [webId=" + webId + ", webName=" + webName + ", webURL=" + webURL + ", since=" + since
-				+ ", domain=" + domain + ", owner=" + owner + "]";
+		return "WebsiteEntity [webId=" + webId + ", webName=" + webName + ", webURL=" + webURL + ", since=" + webSince
+				+ ", domain=" + webName + ", owner=" + webOwner + "]";
 	}
 
 	@Override
@@ -102,27 +118,27 @@ public class WebsiteEntity implements Serializable {
 	}
 
 	public int getSince() {
-		return since;
+		return webSince;
 	}
 
 	public void setSince(int since) {
-		this.since = since;
+		this.webSince = since;
 	}
 
 	public String getDomain() {
-		return domain;
+		return webName;
 	}
 
 	public void setDomain(String domain) {
-		this.domain = domain;
+		this.webName = domain;
 	}
 
 	public String getOwner() {
-		return owner;
+		return webOwner;
 	}
 
 	public void setOwner(String owner) {
-		this.owner = owner;
+		this.webOwner = owner;
 	}
 	
 	
